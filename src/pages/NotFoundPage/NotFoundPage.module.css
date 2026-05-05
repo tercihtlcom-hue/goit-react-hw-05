@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh; /* Sayfanın büyük bir kısmını kaplar */
+  text-align: center;
+  padding: 20px;
+}
+
+.errorCode {
+  font-size: 120px;
+  font-weight: 900;
+  margin: 0;
+  color: #e91e63; /* Sitenin vurgu rengi */
+  line-height: 1;
+}
+
+.message {
+  font-size: 24px;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
+.homeLink {
+  padding: 12px 24px;
+  background-color: #e91e63;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.homeLink:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}
